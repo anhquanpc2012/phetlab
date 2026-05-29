@@ -9,7 +9,7 @@ st.title("Water Jet Analysis")
 
 video = st.file_uploader(
     "Upload video",
-    type=["mp4", "mov", "avi"]
+    type=["mp4", "mov", "avi","wmv"]
 )
 
 if video is not None:
