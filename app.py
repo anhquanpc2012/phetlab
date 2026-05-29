@@ -10,7 +10,7 @@ st.title("Physics Video Tracking")
 
 uploaded_file = st.file_uploader(
     "Upload video",
-    type=["mp4", "mov", "avi"]
+    type=["mp4", "mov", "avi","wmv"]
 )
 
 if uploaded_file is not None:
